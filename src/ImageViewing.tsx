@@ -99,7 +99,6 @@ function ImageViewing({
       presentationStyle={presentationStyle}
       animationType={animationType}
       onRequestClose={onRequestCloseEnhanced}
-      supportedOrientations={["portrait"]}
       hardwareAccelerated
     >
       <StatusBarManager presentationStyle={presentationStyle} />
